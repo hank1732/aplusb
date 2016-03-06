@@ -1,15 +1,19 @@
 {
-  "name": "aplusb",
+  "name": "modalone",
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-qunit": ">=0.2.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": ">=0.3.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hank1732/aplusb.git"
   },
   "license": "MIT",
+  "dependencies": {},
   "scripts": {
     "test": "grunt test"
   }
